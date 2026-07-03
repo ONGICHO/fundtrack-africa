@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+backend/dist/
+frontend/build/
+frontend/.next/
+ml-engine/dist/
+
+# Database
+*.sqlite
+*.db
+*.sql.dump
+
+# ML Models
+ml-engine/models/*.pkl
+ml-engine/models/*.h5
+ml-engine/models/*.joblib
+
+# Tests
+.coverage
+htmlcov/
+.pytest_cache/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Runtime data
+pids/
+*.pid
+
+# Certificates
+ssl/
+*.pem
+*.key
+*.crt
